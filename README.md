@@ -1,4 +1,23 @@
-# DiffTrans
+# DiffTrans:Bilingual Text Difficulty-level Transfer System with Lexical Alignment and Visualization
+
+##**Significance**
+DiffTrans addresses a crucial gap in readability research by enabling bidirectional text difficulty-level transfer for both English and Chinese. Unlike traditional text simplification and paraphrasing approaches, it explicitly controls the difficulty level based on standardized proficiency scales (U.S. grade levels for English and HSK levels for Chinese) while preserving the original semantics. This allows the system to adapt texts for diverse audiences, such as helping readers with comprehension difficulties access complex information (e.g., medical or legal content) and assisting educators in preparing reading materials tailored to L1 and L2 learners at different proficiency levels. Furthermore, DiffTrans offers interpretable lexicon-level visualizations, making the rewriting process transparent and user-friendly.
+
+![](https://github.com/TreeECNU/DiffTrans/blob/main/Figure/English_platform.png)
+
+
+
+##**Quick Start**
+###**English Text Rewriting System**
+###**Chinese Text Rewriting System**
+
+
+
+
+
+
+
+##**Experiment Result**
 
 | **Readability ($s_y$)**   | **FRE**  | **FREΔ ↓** | **RG-L ↑** | **H-Re ↑** |
 |---------------------------|----------|-------------|------------|------------|
