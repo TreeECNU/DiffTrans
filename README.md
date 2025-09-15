@@ -32,7 +32,7 @@ Next, we switch to the Chinese text rewriting system (port 5011). Its interface 
 
 
 
-## **Experiment Result**
+## :memo: **Experiment Result**
 
 
 | **Readability ($s_y$)**   | **FRE**  | **FREΔ ↓** | **RG-L ↑** | **H-Re ↑** |
