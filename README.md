@@ -1,6 +1,6 @@
 # DiffTrans: Bilingual Text Difficulty-level Transfer System with Lexical Alignment and Visualization
 
-##**Significance**
+## **Significance**
 
 DiffTrans addresses a crucial gap in readability research by enabling bidirectional text difficulty-level transfer for both English and Chinese. Unlike traditional text simplification and paraphrasing approaches, it explicitly controls the difficulty level based on standardized proficiency scales (U.S. grade levels for English and HSK levels for Chinese) while preserving the original semantics. This allows the system to adapt texts for diverse audiences, such as helping readers with comprehension difficulties access complex information (e.g., medical or legal content) and assisting educators in preparing reading materials tailored to L1 and L2 learners at different proficiency levels. Furthermore, DiffTrans offers interpretable lexicon-level visualizations, making the rewriting process transparent and user-friendly.
 
@@ -8,11 +8,11 @@ DiffTrans addresses a crucial gap in readability research by enabling bidirectio
 
 
 
-##**Quick Start**
+## **Quick Start**
 
 First, open the system link[](https://chineseedu.shuishan.net.cn:5009/) . The platform consists of two independent subsystems: the **English text rewriting system** running on port 5009, which uses a PPO model to transform English texts across different difficulty levels, and the **Chinese text rewriting system** running on port 5011, which adopts an SFT model to perform difficulty-level conversion for Chinese texts.
 
-###**English Text Rewriting System**
+### **English Text Rewriting System**
 
 ![](https://github.com/TreeECNU/DiffTrans/blob/main/Figure/run_English_rewrite.png)
 In the English system, users can input an original sentence on the left, select a target difficulty level in the middle (**Elementary, Middle, High, or College**), click the **“Rewrite”** button, and view the rewritten sentence on the right. A set of example sentences with similar meanings but different difficulty levels is provided in the upper-right corner, which can be viewed by clicking the “**Example**” button. Users can then click the “**Analyze the text**” button to automatically assess both the original and rewritten sentences.
@@ -22,7 +22,7 @@ At the vocabulary level, the system tags each word according to the **CEFR (Comm
 
 
 
-###**Chinese Text Rewriting System**
+### **Chinese Text Rewriting System**
 
 ![](https://github.com/TreeECNU/DiffTrans/blob/main/Figure/Chinese_platform.png)
 
@@ -32,7 +32,7 @@ Next, we switch to the Chinese text rewriting system (port 5011). Its interface 
 
 
 
-##**Experiment Result**
+## **Experiment Result**
 
 
 | **Readability ($s_y$)**   | **FRE**  | **FREΔ ↓** | **RG-L ↑** | **H-Re ↑** |
