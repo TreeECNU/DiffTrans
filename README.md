@@ -14,19 +14,19 @@
 | High school(3)            | 51.89    | 1.89        | 61.91      | 0.38       |
 | College(4)                | 32.27    | 12.27       | 55.22      | 0.29       |
 | Average                   | -        | 8.81        | **60.54**  | 0.34       |
-| **SFT + PPO (R*sent + R*cons)** |      |             |            |            |
+| **SFT + PPO (R_{sent} + R_{cons})** |      |             |            |            |
 | Elementary school(1)      | 78.77    | 11.23       | 58.62      | 0.38       |
 | Middle school(2)          | 65.25    | 4.75        | 63.11      | 0.40       |
 | High school(3)            | 50.70    | 0.70        | 61.27      | 0.38       |
 | College(4)                | 28.87    | 8.87        | 53.06      | 0.32       |
 | Average                   | -        | 6.39        | 59.02      | 0.37   |
-| **SFT + PPO (R*lex + R*cons)** |       |             |            |            |
+| **SFT + PPO (R_{lex} + R_{cons})** |       |             |            |            |
 | Elementary school(1)      | 79.96    | 10.04       | 56.73      | 0.40       |
 | Middle school(2)          | 64.65    | 5.35        | 61.65      | 0.40       |
 | High school(3)            | 48.92    | 1.08        | 59.50      | 0.38       |
 | College(4)                | 25.71    | 5.71        | 49.99      | 0.34       |
 | Average                   | -        | **5.55**    | 56.97      | **0.38**   |
-| **SFT + PPO (R*sent + R*lex + R*cons)** |  |             |            |            |
+| **SFT + PPO (R_{sent} + R_{lex} + R_{cons})** |  |             |            |            |
 | Elementary school(1)      | 78.87    | 11.13       | 58.12      | 0.38       |
 | Middle school(2)          | 65.25    | 4.75        | 62.69      | 0.40       |
 | High school(3)            | 50.89    | 0.89        | 60.90      | 0.38       |
