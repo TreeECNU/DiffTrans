@@ -10,7 +10,8 @@ DiffTrans explores the task of text difficulty-level transfer in both English an
 
 ## :rocket: **Quick Start**
 
-First, open the system link [](https://chineseedu.shuishan.net.cn:5009/ ) . The platform consists of two independent subsystems: the **English text rewriting system** running on port 5009, which uses a PPO model to transform English texts across different difficulty levels, and the **Chinese text rewriting system** running on port 5011, which adopts an SFT model to perform difficulty-level conversion for Chinese texts.
+First, open the system link [here](https://chineseedu.shuishan.net.cn:5009/). The platform consists of two independent subsystems: the **English text rewriting system** running on port 5009, and the **Chinese text rewriting system** running on port 5011.
+
 
 ### :wrench: **English Text Rewriting System**
 
