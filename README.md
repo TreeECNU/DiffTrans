@@ -36,11 +36,11 @@ Next, we switch to the Chinese text rewriting system (port 5011). Its interface 
 ## :memo: **Experiment Result**
 
 
-| **Readability ($s_y$)**   | **FRE**  | **FREΔ ↓** | **RG-L ↑** | **H-Re ↑** |
-|---------------------------|----------|-------------|------------|------------|
+| **Readability ($s_y$)**   | **FRE**  | **FREΔ ↓** |
+|---------------------------|----------|-------------|
 | **SFT + PPO ($R_{lex} + R_{cons}$)** |
-| Elementary school(1)      | 79.96    | 10.04       | 56.73      | 0.40       |
-| Middle school(2)          | 64.65    | 5.35        | 61.65      | 0.40       |
-| High school(3)            | 48.92    | 1.08        | 59.50      | 0.38       |
-| College(4)                | 25.71    | 5.71        | 49.99      | 0.34       |
-| Average                   | -        | **5.55**    | 56.97      | **0.38**   |
+| Elementary school(1)      | 79.96    | 10.04       |
+| Middle school(2)          | 64.65    | 5.35        |
+| High school(3)            | 48.92    | 1.08        |
+| College(4)                | 25.71    | 5.71        |
+| Average                   | -        | **5.55**    |
