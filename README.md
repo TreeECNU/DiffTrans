@@ -1,4 +1,4 @@
-# DiffTrans: Bilingual Text Difficulty-level Transfer System with Lexical Alignment and Visualization
+# DiffTrans: Bilingual Text Difficulty-level Transfer System with Lexicon Extraction and Visualization
 
 ## :sparkles: **Significance**
 
