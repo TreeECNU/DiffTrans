@@ -35,6 +35,7 @@ Next, we switch to the Chinese text rewriting system (port 5011). Its interface 
 
 ## :memo: **Experiment Result**
 
+### English Rewriting Result
 
 | **Readability ($s_y$)**   | **FRE**  | **FREΔ ↓** |
 |---------------------------|----------|-------------|
@@ -44,3 +45,15 @@ Next, we switch to the Chinese text rewriting system (port 5011). Its interface 
 | High school(3)            | 48.92    | 1.08        |
 | College(4)                | 25.71    | 5.71        |
 | Average                   | -        | **5.55**    |
+
+### Chinese Rewriting Result
+
+| **origin level \ rewritten level** | **HSK1** | **HSK2** | **HSK3** | **HSK4** | **HSK5** | **HSK6** |
+|:---------------------------------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|
+| **HSK1** | 148 | 150 | 175 | 49  | 51  | 0   |
+| **HSK2** | 55  | 144 | 189 | 103 | 82  | 0   |
+| **HSK3** | 17  | 94  | 218 | 149 | 95  | 0   |
+| **HSK4** | 1   | 25  | 68  | 303 | 173 | 3   |
+| **HSK5** | 1   | 1   | 4   | 72  | 451 | 44  |
+| **HSK6** | 0   | 0   | 0   | 4   | 345 | 224 |
+
